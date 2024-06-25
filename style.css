@@ -603,10 +603,6 @@ footer {
     .container {
         display: inline-block;
     }
-
-    .vendor-list{
-        margin-left: 2rem;
-    }
     .in-box {
         margin-bottom: 2rem;
     }
