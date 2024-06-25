@@ -3,7 +3,7 @@ $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
-$email_from = 'https://itsajay10k.github.io/alexproductionhouse/';
+$email_from = 'https://itsajay10k.github.io/alexproductionhouse/contact-us.html';
 
 $email_subject = 'New Order for Wedding';
 
