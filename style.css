@@ -294,7 +294,7 @@ span {
     height: 35rem;
     flex: 1 1 30rem;
     padding: 1.2rem;
-    margin: 3rem;
+    margin: 1.5rem;
     border-radius: 1rem;
     box-shadow: 0 .2rem .5rem rgb(236, 68, 90);
 }
@@ -602,6 +602,10 @@ footer {
     .invitation-row,
     .container {
         display: inline-block;
+    }
+
+    .vendor-list{
+        margin-left: 2rem;
     }
     .in-box {
         margin-bottom: 2rem;
