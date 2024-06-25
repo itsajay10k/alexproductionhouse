@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEX PRODUCTION HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="head">
+        <a href="#" class="logo"><i class="fas fa-heart"></i>&nbsp;Alex<span>_Production</span>_House&nbsp;</a>
+        <nav class="navbar ">
+            <a href="index.html" class="active">Home</a>
+            <a href="index.html#service">Service</a>
+            <a href="index.html#vendor">Featured Wedding</a>
+            <a href="index.html#venue">Places</a>
+            <a href="index.html#invite">E-invites</a>
+            <a href="about.html">About</a>
+            <a href="contact-us.html" target="_blank">Contact</a>
+        </nav>
+        <div id="menu-bar"><i class="fas fa-bars"></i></div>
+    </header>
+    <!---------------------------Home--------------------->
+    <section class="home" id="home">
+        <form action="#">
+            <div class="search-box">
+                <h1>About Us</h1>
+                <p>Amit Vishwakarma with thousands of trusted reviews</p>
+           
+            </div>
+        </form>
+    </section>
+
+    <!------------------about us-------------->
+
+    <section class="about">
+        <div class="row">
+            <div class="contact-col">
+                <h1>logo laga de</h1>
+                <h3>Hello i am amit vishwakarma</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <!--------------------------------------------footer section--------------------------->
+    <footer id="contact">
+        <div class="container">
+            <div class="f-container">
+                <h2>ALEX PRODUCTION HOUSE - Wedding Management</h2><br>
+                <p>Plan your wedding with Us Alex production house</p>
+                <div class="image">
+                    <img src="ajay.jpg" alt="">
+                </div>
+                <div>
+                    <a href="about.html"><h3 class="btn">Founder at -> Amit Vishwakarma</h3></a>
+                </div>
+
+                <div class="social">
+                    <a class="social-a" href="https://www.instagram.com/alex_production_house?igsh=MTZha21mOWRrY3Zodw=="><i class="fab fa-instagram"></i></a>
+                    <a class="social-a" href="https://www.facebook.com/profile.php?id=100011801640176"><i class="fab fa-facebook"></i></a>
+                    <a class="social-a" href="https://youtube.com/@alexproductionhouse?feature=shared"><i class="fab fa-youtube"></i></a>
+                    <a class="social-a" href="https://wa.link/yyuyge"><i class="fab fa-whatsapp"></i></a>
+                    <a class="social-a" href="mailto:thealexproduction01@gmail.com"><i class="fa fa-envelope"></i></a>
+                    
+                </div>
+            </div>
+            <div class="f-container">
+                <h2>Our Location</h2>
+                <a href="https://maps.app.goo.gl/m1sTrP4dKwWCMVje6"><i class="fas fa-angle-right"></i>Udaipura</a>
+                <!-- <a href="#"><i class="fas fa-angle-right"></i>Vadodara</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Mumbai</a>
+                <a href="#" "><i class=" fas fa-angle-right "></i>Ahemdabad</a>
+                    <a href="# "><i class="fas fa-angle-right "></i>Surat</a> -->
+                </div>
+                
+                <div class="f-container ">
+                    <!-- <h2>Our Team Members</h2>
+                    <p>Ajay Vishwakarma</p>
+                    <p>Raj Vishwakarma</p>
+                    <p>sam click</p>
+                    <p>Mayank </p>
+                    <p>name likh</p>
+                    <p>name likh</p>
+                    <p>name likh</p> -->
+                    <br>
+                    <p>Contact for latest updates</p>
+                    <!-- <input type="text " placeholder="Enter Your number"> -->
+                    <!-- <input type="button" class="phone" value="7240909030"> -->
+                    <button onclick="(()=>{window.open('tel:7240909030'),'_blank'})()" class="btn"><i class="fa fa-phone" id="call"></i>+91 7240909030</button>
+                    <a href="contact-us.html"><button onclick="confirm" class="btn ">Contact Us - click here</button></a>
+                    </div>
+            </div>
+            <!-- <h5 class="ajay">created by Ajay Vishwakarma</h5> -->
+        </footer>
+        <div class="copyright ">
+            <p>Copyright ©2024 All Rights Reserved | Knowledge Place MP
+                <br><h5 class="ajay">Made with Ajay Vishwakarma</h5>
+            </p>
+        </div>
+</body>
+<script>
+    let menu = document.querySelector('#menu-bar');
+    let head = document.querySelector('.head .navbar');
+
+    menu.onclick = () => {
+        head.classList.toggle('active');
+    };
+
+    window.onscroll = () => {
+        head.classList.remove('active');
+        if (window.scrollY > 60) {
+            document.querySelector('#menu-bar').classList.add('active');
+        } else {
+            document.querySelector('#menu-bar').classList.remove('active');
+        }
+    };
+</script>    
+</html>

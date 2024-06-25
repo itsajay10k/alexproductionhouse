@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More-info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="head">
+        <a href="#" class="logo"><i class="fas fa-heart"></i>&nbsp;Alex<span>_Production</span>_House&nbsp;</a>
+        <nav class="navbar ">
+            <a href="#" class="active">Home</a>
+            <a href="#service">Service</a>
+            <a href="#vendor">Featured Wedding</a>
+            <a href="#venue">Places</a>
+            <a href="#invite">E-invites</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="contact-us.html" target="_blank">Contact</a>
+        </nav>
+        <div id="menu-bar"><i class="fas fa-bars"></i></div>
+    </header>
+
+    <section class="invite" id="invite">
+        <div class="title More-info">
+            <h1>More<span>-Info</span></h1>
+            <p>Best photo for area.</p>
+            <br>
+        </div>
+        <div class="invitation-row">
+            <div class="invitation-box">
+                <img src="card-1.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-2.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-3.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-4.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-5.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-6.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-7.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-8.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-9.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-10.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-11.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="card-12.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="copyright ">
+        <p>Copyright ©2024 All Rights Reserved | Knowledge Place MP
+            <br>
+            <h5 class="ajay">Made with Ajay Vishwakarma</h5>
+        </p>
+    </div>
+</body>
+<script>
+    let menu = document.querySelector('#menu-bar');
+    let head = document.querySelector('.head .navbar');
+
+    menu.onclick = () => {
+        head.classList.toggle('active');
+    };
+
+    window.onscroll = () => {
+        head.classList.remove('active');
+        if (window.scrollY > 60) {
+            document.querySelector('#menu-bar').classList.add('active');
+        } else {
+            document.querySelector('#menu-bar').classList.remove('active');
+        }
+    };
+</script> 
+</html>
